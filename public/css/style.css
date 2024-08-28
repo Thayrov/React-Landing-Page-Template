@@ -246,7 +246,7 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: linear-gradient(to right, #ffefca 0%, #ffffdf 100%);
+  background: linear-gradient(to right, #fff8ea 0%, #fafae7 100%);
   
 }
 #features i.fa {
@@ -260,6 +260,15 @@ header .intro-text {
   border-radius: 50%;
   background: linear-gradient(to right, #ffb6ac 0%, #ffefca 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features h2 {
+  color: #090305;
+}
+#services h3 {
+  color: #090305;
+}
+#services p {
+  color: #3d3c3cf8;
 }
 /* About Section */
 #about {
@@ -282,6 +291,9 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 0;
+}
+#about p {
+  color: #3d3c3cf8;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -311,14 +323,14 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: linear-gradient(to right, #fff8ea 0%, #fafae7 100%);
+  color: #090305;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #090305;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -337,16 +349,16 @@ header .intro-text {
   padding: 40px 0;
   background: linear-gradient(to right, #ffb6ac 0%, #ffefca 100%);
   border-radius: 50%;
-  color: #fff;
+  color: #090305;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #090305;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #3d3c3cf8;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -462,7 +474,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #f6f6f6;;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -472,10 +484,14 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: #090305;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
+}
+
+#contact p {
+  color: #3d3c3cf8;
 }
 #contact .section-title h2::after {
   position: absolute;
@@ -487,7 +503,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #090305;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -503,11 +519,12 @@ header .intro-text {
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #fff;
+  color: #090305;
+  border: 2px solid #3d3c3cf8;
 }
 #contact .btn-custom:hover {
   color: #1f386e;
-  background: #fff;
+  background: linear-gradient(to right, #f1dad7 0%, #f7edd3 100%);
 }
 label {
   font-size: 12px;
