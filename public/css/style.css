@@ -247,6 +247,7 @@ header .intro-text {
 /* Features Section */
 #features {
   background: linear-gradient(to right, #fff8ea 0%, #fafae7 100%);
+  color: #090305;
   
 }
 #features i.fa {
@@ -264,10 +265,10 @@ header .intro-text {
 #features h2 {
   color: #090305;
 }
-#services h3 {
+#features h3 {
   color: #090305;
 }
-#services p {
+#features p {
   color: #3d3c3cf8;
 }
 /* About Section */
@@ -368,6 +369,9 @@ header .intro-text {
   padding: 100px 0;
   background: linear-gradient(to right, #F7B7C5 0%, #FDEEF1 100%);
 }
+#portfolio p {
+  color: #3d3c3cf8;
+}
 .portfolio-item {
   margin: 1px -15px 0 -14px;
   padding: 0;
@@ -457,6 +461,9 @@ header .intro-text {
 #team {
   padding: 100px 0;
 }
+#team p {
+  color: #3d3c3cf8;
+}
 #team h4 {
   margin: 5px 0;
 }
@@ -474,7 +481,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: #f6f6f6;;
+  background: #f6f6f6;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -523,8 +530,8 @@ header .intro-text {
   border: 2px solid #3d3c3cf8;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
-  background: linear-gradient(to right, #f1dad7 0%, #f7edd3 100%);
+  color: #e948a9;
+  background: linear-gradient(to right, #fde0f3 0%, #f3f0f0 100%);
 }
 label {
   font-size: 12px;
@@ -538,7 +545,7 @@ label {
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #444;
+  color: #3d3c3cf8;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ddd;
@@ -556,22 +563,23 @@ label {
   box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-  color: #777;
+  color: #3d3c3cf8;
 }
 .form-control:-moz-placeholder {
-  color: #777;
+  color: #3d3c3cf8;
 }
 .form-control::-moz-placeholder {
-  color: #777;
+  color: #3d3c3cf8;
 }
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-item {
+#contact .contact-item  h3{
   margin: 20px 0;
+  color: #e40087;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #b73e8d;
   margin-bottom: 10px;
   display: block;
 }
