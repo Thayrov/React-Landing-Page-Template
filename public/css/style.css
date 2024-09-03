@@ -246,19 +246,30 @@ header .intro-text {
 }
 /* Features Section */
 #features {
-  background: #f6f6f6;
+  background: linear-gradient(to right, #fff8ea 0%, #fafae7 100%);
+  color: #090305;
+  
 }
 #features i.fa {
   font-size: 38px;
   margin-bottom: 20px;
   transition: all 0.5s;
-  color: #fff;
+  color: #090305;
   width: 100px;
   height: 100px;
   padding: 30px 0;
   border-radius: 50%;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ffb6ac 0%, #ffefca 100%);
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
+}
+#features h2 {
+  color: #090305;
+}
+#features h3 {
+  color: #090305;
+}
+#features p {
+  color: #3d3c3cf8;
 }
 /* About Section */
 #about {
@@ -281,6 +292,9 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 0;
+}
+#about p {
+  color: #3d3c3cf8;
 }
 #about .about-text li {
   margin-bottom: 6px;
@@ -310,14 +324,14 @@ header .intro-text {
 /* Services Section */
 #services {
   padding: 100px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
-  color: #fff;
+  background: linear-gradient(to right, #fff8ea 0%, #fafae7 100%);
+  color: #090305;
 }
 #services .service-desc {
   margin: 10px 10px 20px;
 }
 #services h2 {
-  color: #fff;
+  color: #090305;
 }
 #services .section-title h2::after {
   position: absolute;
@@ -334,18 +348,18 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: linear-gradient(to right, #ffb6ac 0%, #ffefca 100%);
   border-radius: 50%;
-  color: #fff;
+  color: #090305;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
 }
 #services h3 {
   font-weight: 500;
   padding: 5px 0;
-  color: #fff;
+  color: #090305;
 }
 #services p {
-  color: rgba(255, 255, 255, 0.75);
+  color: #3d3c3cf8;
 }
 #services .service-desc {
   margin-bottom: 40px;
@@ -353,6 +367,10 @@ header .intro-text {
 /* Portfolio Section */
 #portfolio {
   padding: 100px 0;
+  background: linear-gradient(to right, #F7B7C5 0%, #FDEEF1 100%);
+}
+#portfolio p {
+  color: #3d3c3cf8;
 }
 .portfolio-item {
   margin: 1px -15px 0 -14px;
@@ -443,6 +461,9 @@ header .intro-text {
 #team {
   padding: 100px 0;
 }
+#team p {
+  color: #3d3c3cf8;
+}
 #team h4 {
   margin: 5px 0;
 }
@@ -460,7 +481,7 @@ header .intro-text {
 /* Contact Section */
 #contact {
   padding: 100px 0 60px;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  background: #f6f6f6;
   color: rgba(255, 255, 255, 0.75);
 }
 #contact .section-title {
@@ -470,10 +491,14 @@ header .intro-text {
   font-size: 16px;
 }
 #contact h2 {
-  color: #fff;
+  color: #090305;
   margin-top: 10px;
   margin-bottom: 15px;
   padding-bottom: 15px;
+}
+
+#contact p {
+  color: #3d3c3cf8;
 }
 #contact .section-title h2::after {
   position: absolute;
@@ -485,7 +510,7 @@ header .intro-text {
   left: 30px;
 }
 #contact h3 {
-  color: #fff;
+  color: #090305;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
@@ -501,11 +526,12 @@ header .intro-text {
 #contact .btn-custom {
   margin: 30px 0;
   background: transparent;
-  border: 2px solid #fff;
+  color: #090305;
+  border: 2px solid #3d3c3cf8;
 }
 #contact .btn-custom:hover {
-  color: #1f386e;
-  background: #fff;
+  color: #e948a9;
+  background: linear-gradient(to right, #fde0f3 0%, #f3f0f0 100%);
 }
 label {
   font-size: 12px;
@@ -519,7 +545,7 @@ label {
   padding: 6px 12px;
   font-size: 16px;
   line-height: 1.42857143;
-  color: #444;
+  color: #3d3c3cf8;
   background-color: #fff;
   background-image: none;
   border: 1px solid #ddd;
@@ -537,22 +563,23 @@ label {
   box-shadow: transparent;
 }
 .form-control::-webkit-input-placeholder {
-  color: #777;
+  color: #3d3c3cf8;
 }
 .form-control:-moz-placeholder {
-  color: #777;
+  color: #3d3c3cf8;
 }
 .form-control::-moz-placeholder {
-  color: #777;
+  color: #3d3c3cf8;
 }
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-item {
+#contact .contact-item  h3{
   margin: 20px 0;
+  color: #e40087;
 }
 #contact .contact-item span {
-  color: rgba(255, 255, 255, 1);
+  color: #b73e8d;
   margin-bottom: 10px;
   display: block;
 }
@@ -575,7 +602,7 @@ label {
   height: 48px;
   padding: 12px 0;
   border: 2px solid #fff;
-  color: #fff;
+  color: #608dfd;;
   border-radius: 50%;
   transition: all 0.3s;
 }
