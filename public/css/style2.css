@@ -80,10 +80,11 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+/* edito el estilo del titulo de la barra de navegacion */
 #menu a.navbar-brand {
   font-family: "Raleway", sans-serif;
-  font-size: 24px;
   font-weight: 700;
+  font-size: 24px;
   color: #333;
   text-transform: uppercase;
 }
