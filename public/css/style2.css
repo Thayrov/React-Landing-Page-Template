@@ -555,6 +555,14 @@ label {
 #contact .contact-item {
   margin: 20px 0;
 }
+/*acá otro cambio de fuente */
+#contact .contact-item h3 {
+  font-family: "Tangerine", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
