@@ -82,6 +82,7 @@ hr {
 }
  /* edito el estilo del titulo de la barra de navegación
  opciones probadas y católicas: Playfair Display, cinzel, Cormorant Garamond, Merriweather
+ text-transform: uppercase;
  */
  #menu a.navbar-brand {
   font-family: "Merriweather", serif;
@@ -89,7 +90,7 @@ hr {
   font-style: normal;
   font-size: 32px;
   color: #333;
-  text-transform: uppercase;
+  
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -222,12 +223,14 @@ a:focus,
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
+/*cambio de fuente para el titulo a Tangerine elimine text-transform: uppercase;**/
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
+  font-family: "Tangerine", system-ui;
   font-weight: 700;
-  text-transform: uppercase;
+  font-style: normal;
+  color: #fff;
+  font-size: 120px;
+  
   margin-top: 0;
   margin-bottom: 10px;
 }
