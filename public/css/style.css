@@ -89,8 +89,24 @@ hr {
   font-weight: 500;
   font-style: normal;
   font-size: 32px;
+  line-height: 1.2; /* Ajusta el espacio entre líneas */
   color: #333;
+  text-align: left;
   
+}
+@media (max-width: 768px) {
+  #menu a.navbar-brand {
+    font-size: 24px; /* Tamaño más pequeño para pantallas más pequeñas */
+    line-height: 1.1; /* Ajusta el espacio entre líneas si es necesario */
+  }
+}
+@media (max-width: 576px) {
+  #menu a.navbar-brand {
+    font-size: 16px; /* Tamaño aún más pequeño para pantallas más pequeñas */
+    line-height: 1;
+    width: 65%; /*ajuste responsivo pantallas pequeñas*/
+    text-align: center;
+  }
 }
 #menu.navbar-default .navbar-nav > li > a {
   font-family: "Lato", sans-serif;
@@ -136,6 +152,8 @@ hr {
 }
 .navbar-toggle {
   border-radius: 0;
+  margin-left: auto; /*ajuste responsivo para pantalla muy pequeña*/
+  margin-right: 3%;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
