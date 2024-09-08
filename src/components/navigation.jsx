@@ -5,6 +5,11 @@ export const Navigation = (props) => {
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
       <div className="container">
         <div className="navbar-header">
+          {/* Nuevo texto de marcador de posición o ícono */}
+          <div className="navbar-left-item">
+            <span>Icono</span>
+          </div>
+
           <button
             type="button"
             className="navbar-toggle collapsed"
