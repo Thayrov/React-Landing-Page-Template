@@ -19,7 +19,7 @@ h2 {
   color: #333;
 }
 h3 {
-  font-family: "merriweather"; /* cambio de tipografía */
+  font-family: "Merriweather"; /* cambio de tipografía */
   font-size: 20px;
   font-weight: 600;
   color: #333;
@@ -544,6 +544,12 @@ header .intro-text {
   width: 60px;
   bottom: 0;
   left: 30px;
+}
+#contact h2{
+  font-family: "Cinzel Decorative";
+  font-style: regular;
+  font-weight: 600;
+  font-size: 52px;
 }
 #contact h3 {
   color: #090305;
