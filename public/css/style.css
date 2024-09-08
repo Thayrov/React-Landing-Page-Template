@@ -8,18 +8,15 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
-h3,
-h4 {
-  font-family: "Raleway", sans-serif;
-}
 h2 {
-  font-family: "tangerine"; /* cambio de fuente */
+  font-family: "tangerine"; /* cambio de tipografía */
   margin: 0 0 20px;
   font-weight: 800;
   font-size: 82px; /* tamaño de fuente */
   color: #333;
 }
 h3 {
+  font-family: "merriweather"; /* cambio de tipografía */
   font-size: 20px;
   font-weight: 600;
   color: #333;
