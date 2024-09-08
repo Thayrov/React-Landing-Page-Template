@@ -99,7 +99,7 @@ hr {
  #menu a.navbar-brand {
   font-family: "Merriweather", serif;
   font-weight: 500;
-  font-style: normal;
+  font-style: italic;
   font-size: 32px;
   line-height: 1.2; /* Ajusta el espacio entre líneas */
   color: #333;
@@ -121,11 +121,10 @@ hr {
   }
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
+  font-family: "Merriweather", sans-serif;
   color: #555;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
