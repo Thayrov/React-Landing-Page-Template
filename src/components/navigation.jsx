@@ -3,7 +3,7 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      {/* Contenedor para el ícono y el texto */}
+      {/* Contenedor para el ícono*/}
       <div className="navbar-left-container">
         <span className="navbar-icon">Icono</span>
       </ div>

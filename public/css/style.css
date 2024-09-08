@@ -80,7 +80,17 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
+/*icono*/
+.navbar-left-container {
+  display: flex;
+  align-items: flex-start;
+}
 
+.navbar-icon {
+  font-size: 24px; /* Ajusta el tamaño del ícono/texto según tus necesidades */
+  color: #dc30c5; /* Ajusta el color del ícono/texto */
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
 
  /* edito el estilo del titulo de la barra de navegación
  opciones probadas y católicas: Playfair Display, cinzel, Cormorant Garamond, Merriweather
