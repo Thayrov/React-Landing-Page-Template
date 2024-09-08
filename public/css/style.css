@@ -284,7 +284,7 @@ header .intro-text {
 #features {
   background: linear-gradient(to right, #fff8ea 0%, #fafae7 100%);
   color: #090305;
-  
+  padding: 100px 0; /* padding consistente entre todas las secciones*/
 }
 #features i.fa {
   font-size: 38px;
