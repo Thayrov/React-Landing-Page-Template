@@ -80,25 +80,7 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-/*icono*/
-.navbar-left-item {
-  display: flex;
-  align-items: center;
-  margin-right: 15px; /* Ajusta según sea necesario */
-}
 
-.navbar-icon {
-  font-size: 24px; /* Ajusta el tamaño del ícono/texto según tus necesidades */
-  color: #333; /* Ajusta el color del ícono/texto */
-}
-
-
-/* Estilos para el nuevo ícono o texto a la izquierda */
-.navbar-left-item {
-  display: inline-block; /* Permite que el elemento se muestre en línea con el resto del contenido */
-  margin-right: 15px; /* Espacio entre el ícono/texto y el botón de menú */
-  line-height: 1; /* Asegura que el contenido esté alineado verticalmente con el resto */
-}
 
  /* edito el estilo del titulo de la barra de navegación
  opciones probadas y católicas: Playfair Display, cinzel, Cormorant Garamond, Merriweather

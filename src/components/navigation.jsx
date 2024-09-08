@@ -3,16 +3,12 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
+      {/* Contenedor para el ícono y el texto */}
+      <div className="navbar-left-container">
+        <span className="navbar-icon">Icono</span>
+      </ div>
       <div className="container">
         <div className="navbar-header">
-          {/* Contenedor para el ícono y el texto */}
-          <div className="navbar-left-container">
-            <span className="navbar-icon">Icono</span> {/* Cambia "Icono" por tu ícono o texto */}
-            <a className="navbar-brand page-scroll" href="#page-top">
-              La Cabaña de las Flores
-            </a>
-          </div>
-
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -25,9 +21,9 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          {/*<a className="navbar-brand page-scroll" href="#page-top">
+          <a className="navbar-brand page-scroll" href="#page-top">
             La Cabaña de las Flores
-          </a>{" "}*/}
+          </a>{" "}
         </div>
 
         <div
