@@ -8,6 +8,9 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
+/* elimino Raleway de todas las h y dejo tangerine en h2 y merriweather en h3
+las otras h quedarían con Poppins (de momento no las detecto)
+*/
 h2 {
   font-family: "tangerine"; /* cambio de tipografía */
   margin: 0 0 20px;
