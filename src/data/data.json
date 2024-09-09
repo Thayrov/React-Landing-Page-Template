@@ -100,33 +100,33 @@
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Gracias a La Cabaña de las Flores por hacer que el bautizo de mi hija fuera tan especial. Los arreglos estaban hermosos y la atención fue excelente, muy amables y profesionales.\"",
+      "name": "Francisco Ponce de León"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Excelente servicio, los ramos que pedí para la graduación de mi hija fueron todo un éxito, todos los invitados los amaron!!! Siempre compro aquí y nunca me han fallado.\"",
+      "name": "Juan López"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Encargué un arreglo para el cumpleaños de mi mamá y quedó precioso, justo lo que esperaba. La atención al cliente es de 10, me ayudaron con todo el proceso y fueron muy atentos. Lo recomiendo totalmente.\"",
+      "name": "Carlos García"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"La verdad, súper contenta con el servicio de esta floristería. Las flores que pedí llegaron frescas y el arreglo fue tal como lo pedí, aunque siento que el proceso de pedido en línea podría ser un poco más fácil. Fuera de eso, muy amables y atentos en todo momento, respondieron rápido todas mis dudas. Sin duda, volveré a pedir con ellos.\"",
+      "name": "María del Pilar"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"El ramo que me hizo fue más que un regalo, fue una obra de arte. Se nota la sensibilidad y el toque creativo de quien conoce el alma de las flores.\"",
+      "name": "Jonathan Lastra"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"No puedo sino expresar mi más profunda admiración hacia La Cabaña de las Flores. Cada pétalo, cada color, cada composición floral parece haber sido meticulosamente diseñada por manos expertas que comprenden el verdadero arte de transmitir emociones a través de la naturaleza. La atención al detalle, la puntualidad y, sobre todo, la sublime belleza de los arreglos, me dejaron sin aliento. Recomiendo esta floristería sin reservas; es una experiencia simplemente excepcional.\"",
+      "name": "Dolores Fernández de Cevallos"
     }
   ],
   "Team": [
