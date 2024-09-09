@@ -68,33 +68,33 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Arreglos Florales para Bodas",
+      "text": "Creamos el escenario perfecto para tu día más especial, con arreglos florales que reflejan tu estilo y hacen de cada detalle una celebración inolvidable."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Diseños Personalizados para XV Años y Bautizos",
+      "text": "Cada evento es único, por eso diseñamos arreglos que capturan la esencia de tus momentos más importantes, desde los XV años hasta el bautizo."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Bouquets Especiales para Toda Ocasión",
+      "text": "Elige entre una variedad de bouquets frescos y elegantes, ideales para expresar emociones en cualquier ocasión, desde cumpleaños hasta aniversarios."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Arreglos para Cumpleaños y Graduaciones",
+      "text": "Celebra los logros y momentos importantes de la vida con arreglos florales vibrantes, hechos para iluminar cualquier festejo."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Ramos para Expresar Sentimientos Únicos",
+      "text": "A veces, las palabras no son suficientes. Nuestros ramos te ayudan a expresar lo que sientes, con flores seleccionadas para cada emoción."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Atención Cercana y Personalizada",
+      "text": "Nos enorgullecemos de brindar un servicio cercano, escuchando tus necesidades y creando arreglos florales que superen tus expectativas."
     }
   ],
   "Testimonials": [
