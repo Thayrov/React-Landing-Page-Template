@@ -10,6 +10,11 @@ export const Services = (props) => {
           Delicadeza, color y vida en cada diseño floral. 🌷
           </p>
         </div>
+        {/*
+        La clase row de bootstrap tiene problemas en un tamaño muy especifico de pantalla
+        en este tamaño renderiza 3 col en la 1ra fil 1 col en la 2da fil y 2 col en la 3ra
+          es mejor esperar a desplegar el producto final para hacer una mejor evaluación
+        */}
         <div className="row">
           {props.data
             ? props.data.map((d, i) => (
