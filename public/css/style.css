@@ -1,6 +1,7 @@
 body,
+/*font-family: "Open Sans", sans-serif;*/
 html {
-  font-family: "Open Sans", sans-serif;
+  
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #777;
@@ -8,19 +9,18 @@ html {
   width: 100% !important;
   height: 100% !important;
 }
-h2,
-h3,
-h4 {
-  font-family: "Raleway", sans-serif;
-}
+/* elimino Raleway de todas las h y dejo tangerine en h2 y merriweather en h3
+las otras h quedarían con Poppins (de momento no las detecto)
+*/
 h2 {
-  text-transform: uppercase;
+  font-family: "tangerine"; /* cambio de tipografía */
   margin: 0 0 20px;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 82px; /* tamaño de fuente */
   color: #333;
 }
 h3 {
+  font-family: "Merriweather"; /* cambio de tipografía */
   font-size: 20px;
   font-weight: 600;
   color: #333;
@@ -80,19 +80,51 @@ hr {
   border-color: rgba(231, 231, 231, 0);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
-#menu a.navbar-brand {
-  font-family: "Raleway", sans-serif;
-  font-size: 24px;
-  font-weight: 700;
+/*icono*/
+.navbar-left-container {
+  display: flex;
+  align-items: flex-start;
+}
+
+.navbar-icon {
+  font-size: 24px; /* Ajusta el tamaño del ícono/texto según tus necesidades */
+  color: #dc30c5; /* Ajusta el color del ícono/texto */
+  margin-right: 10px; /* Espacio entre el ícono y el texto */
+}
+
+ /* edito el estilo del titulo de la barra de navegación
+ opciones probadas y católicas: Playfair Display, cinzel, Cormorant Garamond, Merriweather
+ text-transform: uppercase;
+ */
+ #menu a.navbar-brand {
+  font-family: "Merriweather", serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 32px;
+  line-height: 1.2; /* Ajusta el espacio entre líneas */
   color: #333;
-  text-transform: uppercase;
+  text-align: left;
+  
+}
+@media (max-width: 768px) {
+  #menu a.navbar-brand {
+    font-size: 24px; /* Tamaño más pequeño para pantallas más pequeñas */
+    line-height: 1.1; /* Ajusta el espacio entre líneas si es necesario */
+  }
+}
+@media (max-width: 576px) {
+  #menu a.navbar-brand {
+    font-size: 16px; /* Tamaño aún más pequeño para pantallas más pequeñas */
+    line-height: 1;
+    width: 65%; /*ajuste responsivo pantallas pequeñas*/
+    text-align: center;
+  }
 }
 #menu.navbar-default .navbar-nav > li > a {
-  font-family: "Lato", sans-serif;
-  text-transform: uppercase;
+  font-family: "Merriweather", sans-serif;
   color: #555;
   font-size: 15px;
-  font-weight: 400;
+  font-weight: 500;
   padding: 8px 2px;
   border-radius: 0;
   margin: 9px 20px 0;
@@ -131,6 +163,8 @@ hr {
 }
 .navbar-toggle {
   border-radius: 0;
+  margin-left: auto; /*ajuste responsivo para pantalla muy pequeña*/
+  margin-right: 3%;
 }
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
@@ -218,12 +252,14 @@ a:focus,
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
+/*cambio de fuente para el titulo a Tangerine elimine text-transform: uppercase;**/
 .intro h1 {
-  font-family: "Raleway", sans-serif;
-  color: #fff;
-  font-size: 82px;
+  font-family: "Tangerine", system-ui;
   font-weight: 700;
-  text-transform: uppercase;
+  font-style: normal;
+  color: #fff;
+  font-size: 120px;
+  
   margin-top: 0;
   margin-bottom: 10px;
 }
@@ -248,7 +284,7 @@ header .intro-text {
 #features {
   background: linear-gradient(to right, #fff8ea 0%, #fafae7 100%);
   color: #090305;
-  
+  padding: 100px 0; /* padding consistente entre todas las secciones*/
 }
 #features i.fa {
   font-size: 38px;
@@ -509,6 +545,12 @@ header .intro-text {
   bottom: 0;
   left: 30px;
 }
+#contact h2{
+  font-family: "Cinzel Decorative";
+  font-style: regular;
+  font-weight: 600;
+  font-size: 52px;
+}
 #contact h3 {
   color: #090305;
   margin-top: 80px;
@@ -577,6 +619,13 @@ label {
 #contact .contact-item  h3{
   margin: 20px 0;
   color: #e40087;
+}
+/*acá otro cambio de fuente */
+#contact .contact-item h3 {
+  font-family: "Tangerine", system-ui;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
 }
 #contact .contact-item span {
   color: #b73e8d;
