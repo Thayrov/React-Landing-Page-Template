@@ -1,66 +1,66 @@
 {
   "Header": {
     "title": "La Cabaña de las Flores",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "paragraph": "Flores que cuentan historias, emociones que florecen. 🌼💖 Dale vida a cada detalle con nosotros."
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Somos una floristería comprometida con ofrecer lo mejor en diseños florales para toda ocasión. Desde bodas y cumpleaños hasta momentos inolvidables del día a día, nuestro equipo se esfuerza por crear arreglos que hablen por ti y expresen tus sentimientos. Con cada ramo, llevamos a tu evento un toque de frescura y elegancia.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Flores frescas y de la mejor calidad",
+      "Diseños únicos para cada ocasión especial",
+      "Expertos en arreglos para bodas y eventos",
+      "Atención personalizada y cercana"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Entregas puntuales y confiables",
+      "Amplia variedad de flores y estilos",
+      "Comprometidos con la satisfacción de nuestros clientes",
+      "Transformamos tus emociones en arreglos florales"
     ]
   },
   "Gallery": [
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/01-large.jpg",
       "smallImage": "img/portfolio/01-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/02-large.jpg",
       "smallImage": "img/portfolio/02-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/03-large.jpg",
       "smallImage": "img/portfolio/03-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/04-large.jpg",
       "smallImage": "img/portfolio/04-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/05-large.jpg",
       "smallImage": "img/portfolio/05-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/06-large.jpg",
       "smallImage": "img/portfolio/06-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/07-large.jpg",
       "smallImage": "img/portfolio/07-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/08-large.jpg",
       "smallImage": "img/portfolio/08-small.jpg"
     },
     {
-      "title": "Project Title",
+      "title": "",
       "largeImage": "img/portfolio/09-large.jpg",
       "smallImage": "img/portfolio/09-small.jpg"
     }
@@ -68,65 +68,65 @@
   "Services": [
     {
       "icon": "fa fa-wordpress",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Arreglos Florales para Bodas",
+      "text": "Creamos el escenario perfecto para tu día más especial, con arreglos florales que reflejan tu estilo y hacen de cada detalle una celebración inolvidable."
     },
     {
       "icon": "fa fa-cart-arrow-down",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Diseños Personalizados para XV Años y Bautizos",
+      "text": "Cada evento es único, por eso diseñamos arreglos que capturan la esencia de tus momentos más importantes, desde los XV años hasta el bautizo."
     },
     {
       "icon": "fa fa-cloud-download",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Bouquets Especiales para Toda Ocasión",
+      "text": "Elige entre una variedad de bouquets frescos y elegantes, ideales para expresar emociones en cualquier ocasión, desde cumpleaños hasta aniversarios."
     },
     {
       "icon": "fa fa-language",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Arreglos para Cumpleaños y Graduaciones",
+      "text": "Celebra los logros y momentos importantes de la vida con arreglos florales vibrantes, hechos para iluminar cualquier festejo."
     },
     {
       "icon": "fa fa-plane",
-      "name": "Lorem ipsum dolor",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Ramos para Expresar Sentimientos Únicos",
+      "text": "A veces, las palabras no son suficientes. Nuestros ramos te ayudan a expresar lo que sientes, con flores seleccionadas para cada emoción."
     },
     {
       "icon": "fa fa-pie-chart",
-      "name": "Consectetur adipiscing",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at."
+      "name": "Atención Cercana y Personalizada",
+      "text": "Nos enorgullecemos de brindar un servicio cercano, escuchando tus necesidades y creando arreglos florales que superen tus expectativas."
     }
   ],
   "Testimonials": [
     {
       "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Gracias a La Cabaña de las Flores por hacer que el bautizo de mi hija fuera tan especial. Los arreglos estaban hermosos y la atención fue excelente, muy amables y profesionales.\"",
+      "name": "Francisco Ponce de León"
     },
     {
       "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"Excelente servicio, los ramos que pedí para la graduación de mi hija fueron todo un éxito, todos los invitados los amaron!!! Siempre compro aquí y nunca me han fallado.\"",
+      "name": "Juan López"
     },
     {
       "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"Encargué un arreglo para el cumpleaños de mi mamá y quedó precioso, justo lo que esperaba. La atención al cliente es de 10, me ayudaron con todo el proceso y fueron muy atentos. Lo recomiendo totalmente.\"",
+      "name": "Carlos García"
     },
     {
       "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"La verdad, súper contenta con el servicio de esta floristería. Las flores que pedí llegaron frescas y el arreglo fue tal como lo pedí, aunque siento que el proceso de pedido en línea podría ser un poco más fácil. Fuera de eso, muy amables y atentos en todo momento, respondieron rápido todas mis dudas. Sin duda, volveré a pedir con ellos.\"",
+      "name": "María del Pilar"
     },
     {
       "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "text": "\"El ramo que me hizo fue más que un regalo, fue una obra de arte. Se nota la sensibilidad y el toque creativo de quien conoce el alma de las flores.\"",
+      "name": "Jonathan Lastra"
     },
     {
       "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "text": "\"No puedo sino expresar mi más profunda admiración hacia La Cabaña de las Flores. Cada pétalo, cada color, cada composición floral parece haber sido meticulosamente diseñada por manos expertas que comprenden el verdadero arte de transmitir emociones a través de la naturaleza. La atención al detalle, la puntualidad y, sobre todo, la sublime belleza de los arreglos, me dejaron sin aliento. Recomiendo esta floristería sin reservas; es una experiencia simplemente excepcional.\"",
+      "name": "Dolores Fernández de Cevallos"
     }
   ],
   "Team": [
