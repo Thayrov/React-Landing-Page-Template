@@ -242,7 +242,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg2.jpg) center center no-repeat;
+  background: url(../img/intro-bg11.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -253,11 +253,13 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 /*cambio de fuente para el titulo a Tangerine elimine text-transform: uppercase;**/
+/*sombreo le texto para mejorar su lectura*/
 .intro h1 {
   font-family: "Tangerine", system-ui;
   font-weight: 700;
   font-style: normal;
   color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   font-size: 120px;
   
   margin-top: 0;
@@ -269,6 +271,8 @@ a:focus,
 }
 .intro p {
   color: #fff;
+  text-shadow: 2px 5px 4px rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.136);
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
