@@ -616,9 +616,8 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-item  h3{
-  margin: 20px 0;
-  color: #e40087;
+#contact .contact-item {
+  text-align: justify;
 }
 /*acá otro cambio de fuente */
 #contact .contact-item h3 {
@@ -626,6 +625,8 @@ label {
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
+  margin: 20px 0;
+  color: #e40087;
 }
 #contact .contact-item span {
   color: #b73e8d;
