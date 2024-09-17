@@ -503,6 +503,7 @@ header .intro-text {
 }
 #team p {
   color: #3d3c3cf8;
+  font-style: italic;
 }
 #team h4 {
   margin: 5px 0;

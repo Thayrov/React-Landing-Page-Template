@@ -11,7 +11,7 @@ export const Team = (props) => {
           </h3>
           <br />
           <p>
-            Ana y José, fundadores y apasionados por el arte floral, llevan más de 15 años transformando momentos especiales en recuerdos inolvidables con cada diseño floral. Su atención personalizada y su amor por cada detalle es lo que los distingue.
+          🌷 Ana y José llevan más de 15 años poniendo su corazón y alma en cada arreglo floral. Su pasión por el arte de las flores y su atención a cada detalle han hecho de nuestra floristería un lugar donde cada ramo cuenta una historia. ¡Déjanos contar la tuya! 💐
             </p>
         </div>
         <div id="row">
