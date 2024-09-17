@@ -6,9 +6,13 @@ export const Team = (props) => {
       <div className="container">
         <div className="col-md-8 col-md-offset-2 section-title">
           <h2>Nuestro Equipo</h2>
-          <p>
+          <h3>
           Pasión y Experiencia en Cada Arreglo.
-          </p>
+          </h3>
+          <br />
+          <p>
+            Ana y José, fundadores y apasionados por el arte floral, llevan más de 15 años transformando momentos especiales en recuerdos inolvidables con cada diseño floral. Su atención personalizada y su amor por cada detalle es lo que los distingue.
+            </p>
         </div>
         <div id="row">
           {props.data

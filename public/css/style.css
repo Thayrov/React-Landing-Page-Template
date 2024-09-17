@@ -507,6 +507,15 @@ header .intro-text {
 #team h4 {
   margin: 5px 0;
 }
+#team h3 {
+  font-family: "Tangerine", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin: 20px 0;
+  color: #e40087;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
 #team .team-img {
   width: 240px;
 }
