@@ -3,12 +3,23 @@ import React from "react";
 export const Navigation = (props) => {
   return (
     <nav id="menu" className="navbar navbar-default navbar-fixed-top">
-      {/* Contenedor para el ícono*/}
-      <div className="navbar-left-container">
-        <span className="navbar-icon">Icono</span>
-      </ div>
+     
       <div className="container">
         <div className="navbar-header">
+          {/* Contenedor para el ícono y el título */}
+          <div className="navbar-logo-container">
+            {/* Icono de la Cabaña de las Flores */}
+            <img
+              src="https://res.cloudinary.com/dqh2illb5/image/upload/v1726623827/flowercabin/icon_wgm7hd.jpg"
+              alt="logo"
+              className="navbar-logo"
+            />
+            {/* Título */}
+            <a className="navbar-brand page-scroll" href="#page-top">
+              La Cabaña de las Flores
+            </a>
+          </div>
+
           <button
             type="button"
             className="navbar-toggle collapsed"
@@ -21,9 +32,6 @@ export const Navigation = (props) => {
             <span className="icon-bar"></span>{" "}
             <span className="icon-bar"></span>{" "}
           </button>
-          <a className="navbar-brand page-scroll" href="#page-top">
-            La Cabaña de las Flores
-          </a>{" "}
         </div>
 
         <div

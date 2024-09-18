@@ -72,7 +72,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px 0; /* Reduce el padding para disminuir la altura de la barra */
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -81,17 +81,24 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 /*icono*/
-.navbar-left-container {
+.navbar-logo-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* Alinea verticalmente el ícono y el título */
+  padding: 0 0 0 15px; /* Añade espacio alrededor del contenedor */
 }
 
-.navbar-icon {
-  font-size: 24px; /* Ajusta el tamaño del ícono/texto según tus necesidades */
-  color: #dc30c5; /* Ajusta el color del ícono/texto */
-  margin-right: 10px; /* Espacio entre el ícono y el texto */
+
+.navbar-logo {
+  width: 40px; /* Ajusta el tamaño del ícono */
+  margin-right: 15px; /* Espacio entre el ícono y el título */
 }
 
+/*ajuste para navbar-header: bootstrap también está actuando acá*/
+.navbar-header {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el logo, el título y el ícono de menú */
+  justify-content: space-between; /* Distribuye el espacio entre el logo y el ícono de menú */
+}
  /* edito el estilo del titulo de la barra de navegación
  opciones probadas y católicas: Playfair Display, cinzel, Cormorant Garamond, Merriweather
  text-transform: uppercase;
@@ -100,23 +107,21 @@ hr {
   font-family: "Merriweather", serif;
   font-weight: 500;
   font-style: italic;
-  font-size: 32px;
+  font-size: 24px; /* Tamaño reducido del título para ajustar la altura */
   line-height: 1.2; /* Ajusta el espacio entre líneas */
   color: #333;
   text-align: left;
-  
 }
+  
 @media (max-width: 768px) {
   #menu a.navbar-brand {
-    font-size: 24px; /* Tamaño más pequeño para pantallas más pequeñas */
+    font-size: 20px; /* Tamaño más pequeño para pantallas más pequeñas */
     line-height: 1.1; /* Ajusta el espacio entre líneas si es necesario */
   }
 }
 @media (max-width: 576px) {
   #menu a.navbar-brand {
     font-size: 16px; /* Tamaño aún más pequeño para pantallas más pequeñas */
-    line-height: 1;
-    width: 65%; /*ajuste responsivo pantallas pequeñas*/
     text-align: center;
   }
 }
