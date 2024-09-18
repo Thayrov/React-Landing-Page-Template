@@ -192,23 +192,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Adaptabilidad a tus Ideas 💭",
+      "text": "Escuchamos tus ideas y nos adaptamos a tus gustos, creando diseños que verdaderamente representen lo que quieres expresar."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Cobertura en Eventos Grandes y Pequeños 🎊",
+      "text": "Desde una pequeña reunión hasta una boda, no hay evento demasiado grande o pequeño para nuestros diseños."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Relación Cercana con el Cliente 🫶",
+      "text": "Nos encanta formar parte de tus momentos especiales, estableciendo un vínculo cercano y confiable con cada cliente."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Asesoría en Decoración Floral 💡",
+      "text": "Te ayudamos a elegir el arreglo floral perfecto, con recomendaciones que realzan cada evento."
     }
   ]
 }
