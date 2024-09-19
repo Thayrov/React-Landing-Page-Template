@@ -18,6 +18,7 @@ h2 {
   font-weight: 800;
   font-size: 82px; /* tamaño de fuente */
   color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 h3 {
   font-family: "Merriweather"; /* cambio de tipografía */
@@ -72,7 +73,7 @@ hr {
 }
 /* Navigation */
 #menu {
-  padding: 15px;
+  padding: 10px 0; /* Reduce el padding para disminuir la altura de la barra */
   transition: all 0.8s;
 }
 #menu.navbar-default {
@@ -81,17 +82,24 @@ hr {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
 }
 /*icono*/
-.navbar-left-container {
+.navbar-logo-container {
   display: flex;
-  align-items: flex-start;
+  align-items: center; /* Alinea verticalmente el ícono y el título */
+  padding: 0 0 0 15px; /* Añade espacio alrededor del contenedor */
 }
 
-.navbar-icon {
-  font-size: 24px; /* Ajusta el tamaño del ícono/texto según tus necesidades */
-  color: #dc30c5; /* Ajusta el color del ícono/texto */
-  margin-right: 10px; /* Espacio entre el ícono y el texto */
+
+.navbar-logo {
+  width: 40px; /* Ajusta el tamaño del ícono */
+  margin-right: 15px; /* Espacio entre el ícono y el título */
 }
 
+/*ajuste para navbar-header: bootstrap también está actuando acá*/
+.navbar-header {
+  display: flex;
+  align-items: center; /* Alinea verticalmente el logo, el título y el ícono de menú */
+  justify-content: space-between; /* Distribuye el espacio entre el logo y el ícono de menú */
+}
  /* edito el estilo del titulo de la barra de navegación
  opciones probadas y católicas: Playfair Display, cinzel, Cormorant Garamond, Merriweather
  text-transform: uppercase;
@@ -100,23 +108,21 @@ hr {
   font-family: "Merriweather", serif;
   font-weight: 500;
   font-style: italic;
-  font-size: 32px;
+  font-size: 24px; /* Tamaño reducido del título para ajustar la altura */
   line-height: 1.2; /* Ajusta el espacio entre líneas */
   color: #333;
   text-align: left;
-  
 }
+  
 @media (max-width: 768px) {
   #menu a.navbar-brand {
-    font-size: 24px; /* Tamaño más pequeño para pantallas más pequeñas */
+    font-size: 20px; /* Tamaño más pequeño para pantallas más pequeñas */
     line-height: 1.1; /* Ajusta el espacio entre líneas si es necesario */
   }
 }
 @media (max-width: 576px) {
   #menu a.navbar-brand {
     font-size: 16px; /* Tamaño aún más pequeño para pantallas más pequeñas */
-    line-height: 1;
-    width: 65%; /*ajuste responsivo pantallas pequeñas*/
     text-align: center;
   }
 }
@@ -242,7 +248,7 @@ a:focus,
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg.jpg) center center no-repeat;
+  background: url(../img/intro-bg11.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -253,11 +259,13 @@ a:focus,
   background: rgba(0, 0, 0, 0.2);
 }
 /*cambio de fuente para el titulo a Tangerine elimine text-transform: uppercase;**/
+/*sombreo le texto para mejorar su lectura*/
 .intro h1 {
   font-family: "Tangerine", system-ui;
   font-weight: 700;
   font-style: normal;
   color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
   font-size: 120px;
   
   margin-top: 0;
@@ -269,6 +277,8 @@ a:focus,
 }
 .intro p {
   color: #fff;
+  text-shadow: 2px 5px 4px rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.136);
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -499,9 +509,19 @@ header .intro-text {
 }
 #team p {
   color: #3d3c3cf8;
+  font-style: italic;
 }
 #team h4 {
   margin: 5px 0;
+}
+#team h3 {
+  font-family: "Tangerine", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 45px;
+  margin: 20px 0;
+  color: #e40087;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 #team .team-img {
   width: 240px;
@@ -545,18 +565,14 @@ header .intro-text {
   bottom: 0;
   left: 30px;
 }
-#contact h2{
-  font-family: "Cinzel Decorative";
-  font-style: regular;
-  font-weight: 600;
-  font-size: 52px;
-}
+
 #contact h3 {
   color: #090305;
   margin-top: 80px;
   margin-bottom: 25px;
   padding-bottom: 20px;
   font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 #contact form {
   padding-top: 20px;
@@ -616,9 +632,8 @@ label {
 .form-control:-ms-input-placeholder {
   color: #777;
 }
-#contact .contact-item  h3{
-  margin: 20px 0;
-  color: #e40087;
+#contact .contact-item {
+  text-align: justify;
 }
 /*acá otro cambio de fuente */
 #contact .contact-item h3 {
@@ -626,6 +641,8 @@ label {
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
+  margin: 20px 0;
+  color: #e40087;
 }
 #contact .contact-item span {
   color: #b73e8d;
