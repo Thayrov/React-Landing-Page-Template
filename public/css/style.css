@@ -18,6 +18,7 @@ h2 {
   font-weight: 800;
   font-size: 82px; /* tamaño de fuente */
   color: #333;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 h3 {
   font-family: "Merriweather"; /* cambio de tipografía */
