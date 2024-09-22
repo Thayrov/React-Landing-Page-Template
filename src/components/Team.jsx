@@ -11,10 +11,10 @@ export const Team = (props) => {
           </h3>
           <br />
           <p>
-          🌷 Ana y José llevan más de 15 años poniendo su corazón y alma en cada arreglo floral. Su pasión por el arte de las flores y su atención a cada detalle han hecho de nuestra floristería un lugar donde cada ramo cuenta una historia. ¡Déjanos contar la tuya! 💐
+          🌷 Verónica y Pablo llevan más de 15 años poniendo su corazón y alma en cada arreglo floral. Su pasión por el arte de las flores y su atención a cada detalle han hecho de nuestra floristería un lugar donde cada ramo cuenta una historia. ¡Déjanos contar la tuya! 💐
             </p>
         </div>
-        <div id="row">
+        {/*<div id="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-3 col-sm-6 team">
@@ -29,7 +29,7 @@ export const Team = (props) => {
                 </div>
               ))
             : "loading"}
-        </div>
+        </div>*/}
       </div>
     </div>
   );
