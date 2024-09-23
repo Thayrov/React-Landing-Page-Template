@@ -117,14 +117,14 @@ export const Contact = (props) => {
                 {props.data ? props.data.phone : "loading"}
               </p>
             </div>
-            <div className="contact-item">
+           {/* <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-envelope-o"></i> Correo
                 </span>{" "}
                 {props.data ? props.data.email : "loading"}
               </p>
-            </div>
+            </div>*/}
           </div>
           <div className="col-md-12">
             <div className="row">
@@ -135,16 +135,16 @@ export const Contact = (props) => {
                       <i className="fa fa-facebook"></i>
                     </a>
                   </li>
-                  <li>
+                  {/*<li>
                     <a href={props.data ? props.data.twitter : "/"}>
                       <i className="fa fa-twitter"></i>
                     </a>
-                  </li>
-                  <li>
+                  </li>*/}
+                  {/*<li>
                     <a href={props.data ? props.data.youtube : "/"}>
                       <i className="fa fa-youtube"></i>
                     </a>
-                  </li>
+                  </li>*/}
                 </ul>
               </div>
             </div>
