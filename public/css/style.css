@@ -645,10 +645,21 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
+/*cambio de fondo en hover para RR. SS.*/
 #contact .social i.fa:hover {
-  color: #608dfd;
-  background: #fff;
+  color: #fff;
+  background: #608dfd;
 }
+/*ajustes para el icono de whatsapp*/
+
+#contact .social i.fa-whatsapp {
+  color: #25D366; /* Color verde de WhatsApp */
+}
+
+#contact .social i.fa-whatsapp:hover {
+  background: #25D366;
+}
+
 /* Footer Section*/
 #footer {
   background: #f6f6f6;
