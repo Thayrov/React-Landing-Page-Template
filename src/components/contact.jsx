@@ -1,6 +1,7 @@
 // import { useState } from "react";
 // import emailjs from "emailjs-com";
 import React from "react";
+import { MapCab } from "./MapCab";
 
 // const initialState = {
 //   name: "",
@@ -44,10 +45,10 @@ export const Contact = (props) => {
             <div className="row">
               <div className="section-title">
                 <h2>Contacto</h2>
-                <p>
-                  {/* Comentado formulario de contacto */}
-                  {/* Por favor, complete el siguiente formulario para comunicarse con nosotros. */}
-                </p>
+                <MapCab />
+                {/*<p>
+                  Por favor, complete el siguiente formulario para comunicarse con nosotros.
+                </p>*/}
               </div>
               {/* <form name="sentMessage" validate onSubmit={handleSubmit}>
                 <div className="row">
