@@ -632,14 +632,19 @@ acá copio el estilo de .contact-ite .social
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  margin-top: 50px;
+  margin-top: 30px;
+}
+#contact .social ul {
+  display: flex;
+  margin-top: 35px;
+  justify-content: center;
+  gap: 40px;
 }
 #contact .social ul li {
-  display: inline-block;
-  margin: 0 20px;
   text-align: center;
 }
-#contact .social i.fa {
+
+#contact .social ul li i.fa {
   font-size: 22px;
   width: 48px;
   height: 48px;

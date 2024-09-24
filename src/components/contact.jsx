@@ -43,7 +43,7 @@ export const Contact = (props) => {
               <h3>Redes Sociales</h3>
               <p>
                 <span>
-                  <i className="fa fa-"></i> RR. SS.
+                  <i className="fa fa-users"></i> RR. SS.
                 </span>
                 {props.data ? props.data.rrss : "Leyendo información ..."}
               </p>
