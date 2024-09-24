@@ -14,7 +14,9 @@ export const Contact = (props) => {
                   Acá va a ir un comentario importante.
                 </p>
                 {/* Reemplazamos el formulario por el mapa */}
-                <MapCab />
+                <div className="map-cab">
+                  <MapCab />
+                  </div>
               </div>
             </div>
           </div>

@@ -535,11 +535,21 @@ header .intro-text {
   color: #888;
 }
 /* Contact Section */
+
 #contact {
   padding: 100px 0 60px;
   background: #f6f6f6;
   color: rgba(255, 255, 255, 0.75);
 }
+#contact .map-cab {
+  margin-top: 20px; /* Reciclado del padding del formulario */
+  width: 100%;
+  height: 100%; /* Para que se ajuste al espacio asignado */
+  margin-bottom: 30px; /* Espaciado similar al formulario */
+  border: 1.5px solid #ddd;
+  box-shadow: 0 0 1.2px rgb(241, 204, 244);
+}
+
 #contact .section-title {
   margin-bottom: 40px;
 }
