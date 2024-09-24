@@ -11,7 +11,7 @@ export const Contact = (props) => {
               <div className="section-title">
                 <h2>Contacto</h2>
                 <p>
-                  Acá va a ir un comentario importante.
+                Aquí te damos toda la información para que puedas contactarnos. Abajo verás un mapa interactivo con la ubicación de nuestra floristería. 🌸 Somos una empresa atendida por sus dueños y estaremos felices de ayudarte si tienes problemas para encontrarnos. 😊
                 </p>
                 {/* Reemplazamos el formulario por el mapa */}
                 <div className="map-cab">
