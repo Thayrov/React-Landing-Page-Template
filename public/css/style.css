@@ -605,11 +605,15 @@ label {
   font-family: "Open Sans", sans-serif;
   float: left;
 }
-#contact .contact-item {
+#contact .contact-item,
+#contact .social {
   text-align: justify;
 }
-/*acá otro cambio de fuente */
-#contact .contact-item h3 {
+/*acá otro cambio de fuente
+acá copio el estilo de .contact-ite .social
+*/
+#contact .contact-item h3,
+#contact .social h3 {
   font-family: "Tangerine", system-ui;
   font-weight: 700;
   font-style: normal;
@@ -617,23 +621,23 @@ label {
   margin: 20px 0;
   color: #e40087;
 }
-#contact .contact-item span {
+#contact .contact-item span,
+#contact .social span {
   color: #b73e8d;
   margin-bottom: 10px;
   display: block;
 }
-#contact .contact-item i.fa {
+#contact .social i.fa {
   margin-right: 10px;
 }
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
   margin-top: 50px;
-  text-align: center;
 }
 #contact .social ul li {
   display: inline-block;
   margin: 0 20px;
+  text-align: center;
 }
 #contact .social i.fa {
   font-size: 22px;
@@ -645,6 +649,7 @@ label {
   border-radius: 50%;
   transition: all 0.3s;
 }
+
 /*cambio de fondo en hover para RR. SS.*/
 #contact .social i.fa:hover {
   color: #fff;

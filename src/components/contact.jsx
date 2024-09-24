@@ -27,19 +27,26 @@ export const Contact = (props) => {
                 <span>
                   <i className="fa fa-map-marker"></i> Dirección
                 </span>
-                {props.data ? props.data.address : "loading"}
+                {props.data ? props.data.address : "Leyendo información ..."}
               </p>
             </div>
             <div className="contact-item">
               <p>
                 <span>
                   <i className="fa fa-phone"></i> Teléfonos
-                </span>{" "}
-                {props.data ? props.data.phone : "loading"}
+                </span>
+                {props.data ? props.data.phone : "Leyendo información ..."}
               </p>
             </div>
             {/* Redes sociales */}
             <div className="social">
+              <h3>Redes Sociales</h3>
+              <p>
+                <span>
+                  <i className="fa fa-"></i> RR. SS.
+                </span>
+                {props.data ? props.data.rrss : "Leyendo información ..."}
+              </p>
               <ul>
                 <li>
                   <a href={props.data ? props.data.facebook : "/"}>
