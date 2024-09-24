@@ -49,7 +49,7 @@ export const Contact = (props) => {
               </p>
               <ul>
                 <li>
-                  <a href={props.data ? props.data.facebook : "/"}>
+                  <a href={props.data ? props.data.facebook : "/"} target="_blank" rel="noopener noreferrer">
                     <i className="fa fa-facebook"></i>
                   </a>
                 </li>
