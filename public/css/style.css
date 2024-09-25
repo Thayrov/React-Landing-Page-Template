@@ -639,9 +639,6 @@ acá copio el estilo de .contact-ite .social
   margin-bottom: 10px;
   display: block;
 }
-#contact .social i.fa {
-  margin-right: 10px;
-}
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   margin-top: 30px;
@@ -659,17 +656,35 @@ acá copio el estilo de .contact-ite .social
   display: flex; /* Alinea el ícono y el texto horizontalmente */
   align-items: center; /* Centra verticalmente los elementos */
   gap: 8px; /* Espacio entre el icono y el texto */
-  padding: 10px 15px; /* Espacio alrededor del contenedor */
+  padding: 9px 25px; /* Espacio alrededor del contenedor */
   border: 2px solid #fff; /* Borde blanco */
-  border-radius: 30px; /* Bordes redondeados */
+  border-radius: 100px; /* Bordes redondeados */
+  gap: 8px;
+}
+/* Alineación del texto */
+#contact .facebook-link .icon-container .icon-text {
+  margin-top: 15px; /* ajuste manual*/
+  text-shadow: 2px 2px 4px rgba(243, 65, 204, 0.1);
+  font-weight: 405;
 }
 /* Estilo del ícono */
 #contact .facebook-link .icon-container i.fa-facebook {
   font-size: 20px; /* Tamaño del ícono */
+  padding: 5px 7px; /* Diferente padding para la altura y el ancho */
+  border-radius: 50%; /* Sigue siendo circular */
+  line-height: 1; /* Asegura que el contenido del ícono no desborde */
 }
 /* Efecto hover para el contenedor */
 #contact .facebook-link:hover .icon-container {
-  background-color: #608dfd; /* Fondo azul en hover */
+  background-color: #5180f8; /* Fondo azul en hover */
+}
+/* Efecto hover en el icono */
+#contact .facebook-link:hover .icon-container i.fa-facebook {
+  background-color: #1455f8; /* Fondo azul en hover */
+  color: #fff; /* Cambia el color del texto e ícono a blanco */
+}
+/* Efecto hover en el texto */
+#contact .facebook-link:hover .icon-container span.icon-text {
   color: #fff; /* Cambia el color del texto e ícono a blanco */
 }
 /*ajustes para el icono de whatsapp*/
