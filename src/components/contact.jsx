@@ -40,13 +40,13 @@ export const Contact = (props) => {
               <ul>
                 <li>
                   <a href={props.data ? props.data.whatsapp1 : "/"} target="_blank" rel="noopener noreferrer">
-                    {props.data ? props.data.phone1 : "Número no disponible"} 
+                    {props.data ? props.data.phone1 : "Número no disponible"}
                     <i className="fa fa-whatsapp"></i>
                   </a>
                 </li>
                 <li>
                   <a href={props.data ? props.data.whatsapp2 : "/"} target="_blank" rel="noopener noreferrer">
-                    {props.data ? props.data.phone2 : "Número no disponible"} 
+                    {props.data ? props.data.phone2 : "Número no disponible"}
                     <i className="fa fa-whatsapp"></i>
                   </a>
                 </li>
@@ -61,27 +61,12 @@ export const Contact = (props) => {
                 </span>
                 {props.data ? props.data.rrss : "Leyendo información ..."}
               </p>
-              <a className="facebook-link"href={props.data ? props.data.facebook : "/"} target="_blank" rel="noopener noreferrer">
-                    <div className="icon-container">
-                    <i className="fa fa-facebook"></i>
-                    <span className="icon-text">Facebook</span>
-                    </div>
-                  </a>
-              {/*<ul>
-                <li>
-                  <a className="facebook-link"href={props.data ? props.data.facebook : "/"} target="_blank" rel="noopener noreferrer">
-                    <div className="icon-container">
-                    <i className="fa fa-facebook"></i>
-                    <span className="icon-text">Facebook</span>
-                    </div>
-                  </a>
-                </li>
-                <li>
-                  <a href={props.data ? false : "/"}>
-                    <i className="fa fa-whatsapp"></i>
-                  </a>
-                </li>
-              </ul>*/}
+              <a className="facebook-link" href={props.data ? props.data.facebook : "/"} target="_blank" rel="noopener noreferrer">
+                <div className="icon-container">
+                  <i className="fa fa-facebook"></i>
+                  <span className="icon-text">Facebook</span>
+                </div>
+              </a>
             </div>
           </div>
         </div>
