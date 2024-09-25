@@ -648,6 +648,7 @@ acá copio el estilo de .contact-ite .social
 }
 /* Estilo general del enlace F */
 #contact .facebook-link {
+  margin-top: 25px;
   text-decoration: none; /* Sin subrayado */
   display: inline-block; /* Permite ajustar el tamaño y los estilos */
   color: #608dfd; /* Color del texto e ícono */
@@ -670,33 +671,6 @@ acá copio el estilo de .contact-ite .social
 #contact .facebook-link:hover .icon-container {
   background-color: #608dfd; /* Fondo azul en hover */
   color: #fff; /* Cambia el color del texto e ícono a blanco */
-}
-#contact .social ul {
-  display: flex;
-  margin-top: 35px;
-  justify-content: center;
-}
-#contact .social ul li {
-  text-align: center;
-}
-
-#contact .social ul li .icon-text {
-  display: inline-flex; /* Para alinear el ícono y el texto horizontalmente */
-  align-items: center; /* Centra el ícono verticalmente con el texto */
-  font-size: 22px;
-  width: 48px;
-  height: 48px;
-  padding: 12px 15px;
-  border: 2px solid #fff;
-  color: #608dfd;;
-  border-radius: 50%;
-  transition: all 0.3s;
-}
-
-/*cambio de fondo en hover para RR. SS.*/
-#contact .social ul li .icon-text:hover {
-  color: #fff;
-  background: #608dfd;
 }
 /*ajustes para el icono de whatsapp*/
 
