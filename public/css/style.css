@@ -646,21 +646,47 @@ acá copio el estilo de .contact-ite .social
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   margin-top: 30px;
 }
+/* Estilo general del enlace F */
+#contact .facebook-link {
+  text-decoration: none; /* Sin subrayado */
+  display: inline-block; /* Permite ajustar el tamaño y los estilos */
+  color: #608dfd; /* Color del texto e ícono */
+  transition: all 0.3s; /* Suaviza la transición en hover */
+}
+/* Contenedor del icono y texto */
+#contact .facebook-link .icon-container {
+  display: flex; /* Alinea el ícono y el texto horizontalmente */
+  align-items: center; /* Centra verticalmente los elementos */
+  gap: 8px; /* Espacio entre el icono y el texto */
+  padding: 10px 15px; /* Espacio alrededor del contenedor */
+  border: 2px solid #fff; /* Borde blanco */
+  border-radius: 30px; /* Bordes redondeados */
+}
+/* Estilo del ícono */
+#contact .facebook-link .icon-container i.fa-facebook {
+  font-size: 20px; /* Tamaño del ícono */
+}
+/* Efecto hover para el contenedor */
+#contact .facebook-link:hover .icon-container {
+  background-color: #608dfd; /* Fondo azul en hover */
+  color: #fff; /* Cambia el color del texto e ícono a blanco */
+}
 #contact .social ul {
   display: flex;
   margin-top: 35px;
   justify-content: center;
-  gap: 40px;
 }
 #contact .social ul li {
   text-align: center;
 }
 
-#contact .social ul li i.fa {
+#contact .social ul li .icon-text {
+  display: inline-flex; /* Para alinear el ícono y el texto horizontalmente */
+  align-items: center; /* Centra el ícono verticalmente con el texto */
   font-size: 22px;
   width: 48px;
   height: 48px;
-  padding: 12px 0;
+  padding: 12px 15px;
   border: 2px solid #fff;
   color: #608dfd;;
   border-radius: 50%;
@@ -668,7 +694,7 @@ acá copio el estilo de .contact-ite .social
 }
 
 /*cambio de fondo en hover para RR. SS.*/
-#contact .social i.fa:hover {
+#contact .social ul li .icon-text:hover {
   color: #fff;
   background: #608dfd;
 }

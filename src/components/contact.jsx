@@ -61,10 +61,19 @@ export const Contact = (props) => {
                 </span>
                 {props.data ? props.data.rrss : "Leyendo información ..."}
               </p>
-              <ul>
+              <a className="facebook-link"href={props.data ? props.data.facebook : "/"} target="_blank" rel="noopener noreferrer">
+                    <div className="icon-container">
+                    <i className="fa fa-facebook"></i>
+                    <span className="icon-text">Facebook</span>
+                    </div>
+                  </a>
+              {/*<ul>
                 <li>
-                  <a href={props.data ? props.data.facebook : "/"} target="_blank" rel="noopener noreferrer">
-                    <i className="fa fa-facebook">acebook</i>
+                  <a className="facebook-link"href={props.data ? props.data.facebook : "/"} target="_blank" rel="noopener noreferrer">
+                    <div className="icon-container">
+                    <i className="fa fa-facebook"></i>
+                    <span className="icon-text">Facebook</span>
+                    </div>
                   </a>
                 </li>
                 <li>
@@ -72,7 +81,7 @@ export const Contact = (props) => {
                     <i className="fa fa-whatsapp"></i>
                   </a>
                 </li>
-              </ul>
+              </ul>*/}
             </div>
           </div>
         </div>
