@@ -505,6 +505,17 @@ header .intro-text {
 }
 /* Team Section */
 #team {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/intro-bg3.jpg) center center no-repeat;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+#team .container{
   padding: 100px 0;
 }
 #team p {
