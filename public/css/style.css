@@ -523,17 +523,6 @@ header .intro-text {
   color: #e40087;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
-#team .team-img {
-  width: 240px;
-}
-#team .thumbnail {
-  background: transparent;
-  border: 0;
-}
-#team .thumbnail .caption {
-  padding: 10px 0 0;
-  color: #888;
-}
 /* Contact Section */
 
 #contact {
