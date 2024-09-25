@@ -279,6 +279,8 @@ a:focus,
   color: #fff;
   text-shadow: 2px 5px 4px rgb(0, 0, 0);
   background: rgba(0, 0, 0, 0.136);
+  padding: 5px; /* Agrega algo de espacio para mejorar la legibilidad */
+  border-radius: 20px; /* Bordes redondeados para una mejor estética */
   font-size: 22px;
   font-weight: 300;
   line-height: 30px;
@@ -508,7 +510,7 @@ header .intro-text {
   display: table;
   width: 100%;
   padding: 0;
-  background: url(../img/intro-bg3.jpg) center center no-repeat;
+  background: url(../img/team-bg.jpg) center center no-repeat;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -519,11 +521,18 @@ header .intro-text {
   padding: 100px 0;
 }
 #team p {
-  color: #3d3c3cf8;
+  color: #202020f8; /*ligero ajuste de color para mejorar la legibilidad*/
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   font-style: italic;
+  background: rgba(233, 194, 177, 0.3); /* Mantén el fondo, pero ajusta ligeramente la opacidad */
+  padding: 5px; /* Agrega algo de espacio para mejorar la legibilidad */
+  border-radius: 20px; /* Bordes redondeados para una mejor estética */  
 }
-#team h4 {
-  margin: 5px 0;
+#team h2 {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  background: rgba(233, 194, 177, 0.3); /* Mantén el fondo, pero ajusta ligeramente la opacidad */
+  padding: 5px; /* Agrega algo de espacio para mejorar la legibilidad */
+  border-radius: 20px; /* Bordes redondeados para una mejor estética */  
 }
 #team h3 {
   font-family: "Tangerine", system-ui;
@@ -532,7 +541,10 @@ header .intro-text {
   font-size: 45px;
   margin: 20px 0;
   color: #e40087;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background: rgba(233, 194, 177, 0.3); /* Mantén el fondo, pero ajusta ligeramente la opacidad */
+  padding: 5px; /* Agrega algo de espacio para mejorar la legibilidad */
+  border-radius: 20px; /* Bordes redondeados para una mejor estética */  
 }
 /* Contact Section */
 
