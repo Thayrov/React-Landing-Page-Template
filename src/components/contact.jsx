@@ -73,7 +73,14 @@ export const Contact = (props) => {
       </div>
       <div id="footer">
         <div className="container text-center">
-          <p>&copy; 2024 Floristería Cabaña de las Flores.</p>
+          <p>Floristería Cabaña de las Flores.</p>
+          <p className="recognition-text">
+            Sitio web desarrollado por
+            <a href="https://porfolio-rigoberto.vercel.app/" target="_blank" rel="noopener noreferrer"> Rigoberto </a>
+            y
+            <a href="https://www.thayrov.com/" target="_blank" rel="noopener noreferrer"> Thayrov</a>,
+            usando la plantilla del equipo de <strong>Issaaf Kattan</strong>. [MIT License]
+          </p>
         </div>
       </div>
     </div>
