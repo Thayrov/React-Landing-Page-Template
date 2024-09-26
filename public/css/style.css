@@ -639,6 +639,20 @@ acá copio el estilo de .contact-ite .social
   margin-bottom: 10px;
   display: block;
 }
+/*ajustes para el icono de whatsapp*/
+
+#contact .contact-item ul li a i.fa-whatsapp {
+  color: #25D366; /* Color verde de WhatsApp */
+  padding: 3.5px;
+  border-radius: 50%;
+  border: 0.5px solid #fff; /* Borde blanco */
+  transition: all 0.3s; /* Suaviza la transición en hover */
+}
+
+#contact .contact-item ul li a i.fa-whatsapp:hover {
+  background: #25D366;
+  color:#fff
+}
 #contact .social {
   border-top: 1px solid rgba(255, 255, 255, 0.15);
   margin-top: 30px;
@@ -686,15 +700,6 @@ acá copio el estilo de .contact-ite .social
 /* Efecto hover en el texto */
 #contact .facebook-link:hover .icon-container span.icon-text {
   color: #fff; /* Cambia el color del texto e ícono a blanco */
-}
-/*ajustes para el icono de whatsapp*/
-
-#contact .social i.fa-whatsapp {
-  color: #25D366; /* Color verde de WhatsApp */
-}
-
-#contact .social i.fa-whatsapp:hover {
-  background: #25D366;
 }
 
 /* Footer Section*/
