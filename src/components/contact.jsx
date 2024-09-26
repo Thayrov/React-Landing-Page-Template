@@ -37,7 +37,7 @@ export const Contact = (props) => {
                 </span>
                 {/*{props.data ? props.data.phone : "Leyendo información ..."}*/}
               </p>
-              <ul>
+              <ul className="monospace">
                 <li>
                   <a href={props.data ? props.data.whatsapp1 : "/"} target="_blank" rel="noopener noreferrer">
                     {props.data ? props.data.phone1 : "Número no disponible"}

@@ -45,12 +45,13 @@ p.intro {
 }
 a {
   color: #608dfd;
-  font-weight: 400;
+  transition: all 0.3s;
+  font-size: 15px;
 }
 a:hover,
 a:focus {
   text-decoration: none;
-  color: #608dfd;
+  color: #0c4def;
 }
 ul,
 ol {
@@ -552,6 +553,10 @@ header .intro-text {
   padding: 100px 0 60px;
   background: #f6f6f6;
   color: rgba(255, 255, 255, 0.75);
+}
+#contact .monospace {
+  font-family: "Roboto Mono", monospace;
+  
 }
 #contact .map-cab {
   margin-top: 20px; /* Reciclado del padding del formulario */
