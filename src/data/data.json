@@ -97,33 +97,33 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
-      "name": "Arreglos Florales para Bodas",
+      "icon": "fa fa-heart-o",
+      "name": "Arreglos Florales para Bodas 💍",
       "text": "Creamos el escenario perfecto para tu día más especial, con arreglos florales que reflejan tu estilo y hacen de cada detalle una celebración inolvidable."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
-      "name": "Diseños Personalizados para XV Años y Bautizos",
+      "icon": "fa fa-star",
+      "name": "Diseños Personalizados para XV Años y Bautizos 💫",
       "text": "Cada evento es único, por eso diseñamos arreglos que capturan la esencia de tus momentos más importantes, desde los XV años hasta el bautizo."
     },
     {
-      "icon": "fa fa-cloud-download",
-      "name": "Bouquets Especiales para Toda Ocasión",
+      "icon": "fa fa-smile-o",
+      "name": "Bouquets Especiales para Toda Ocasión 💐",
       "text": "Elige entre una variedad de bouquets frescos y elegantes, ideales para expresar emociones en cualquier ocasión, desde cumpleaños hasta aniversarios."
     },
     {
-      "icon": "fa fa-language",
-      "name": "Arreglos para Cumpleaños y Graduaciones",
+      "icon": "fa fa-birthday-cake",
+      "name": "Arreglos para Cumpleaños y Graduaciones 🎈",
       "text": "Celebra los logros y momentos importantes de la vida con arreglos florales vibrantes, hechos para iluminar cualquier festejo."
     },
     {
-      "icon": "fa fa-plane",
-      "name": "Ramos para Expresar Sentimientos Únicos",
+      "icon": "fa fa-sun-o",
+      "name": "Ramos para Expresar Sentimientos Únicos 💖",
       "text": "A veces, las palabras no son suficientes. Nuestros ramos te ayudan a expresar lo que sientes, con flores seleccionadas para cada emoción."
     },
     {
-      "icon": "fa fa-pie-chart",
-      "name": "Atención Cercana y Personalizada",
+      "icon": "fa fa-users",
+      "name": "Atención Cercana y Personalizada 📞",
       "text": "Nos enorgullecemos de brindar un servicio cercano, escuchando tus necesidades y creando arreglos florales que superen tus expectativas."
     }
   ],
@@ -182,12 +182,17 @@
     }
   ],
   "Contact": {
-    "address": "Calle Vicente Guerrero S/N, Cucuchucho, Mich. presentanción",
+    "address": "Calle Vicente Guerrero S/N, Cucuchucho, Mich.",
     "phone": "443-477-3449; 434-101-3513",
-    "email": "xxxx@nemo.???",
-    "facebook": "fb.com",
+    "phone1": "+52 1 443 477 3449  ",
+    "phone2": "+52 1 434 101 3513  ",
+    "whatsapp1": "https://wa.link/2klia5",
+    "whatsapp2": "https://wa.link/75nzh0",
+    "email": "",
+    "facebook": "https://web.facebook.com/profile.php?id=100086455213351",
     "twitter": "twitter.com",
-    "youtube": "youtube.com"
+    "youtube": "youtube.com",
+    "rrss": "🌼 Conéctate con nosotros y recibe toda la información que necesitas de «La Cabaña de las Flores». Cualquier otra red social no es nuestra. ¡Gracias por seguirnos! 😊"
   },
   "Features": [
     {
