@@ -79,7 +79,7 @@ export const Contact = (props) => {
             <a href="https://porfolio-rigoberto.vercel.app/" target="_blank" rel="noopener noreferrer"> Rigoberto </a>
             y
             <a href="https://www.thayrov.com/" target="_blank" rel="noopener noreferrer"> Thayrov</a>,
-            usando la plantilla del equipo de <strong>Issaaf Kattan</strong>. [MIT License]
+            usando la plantilla del equipo de <a href="https://github.com/issaafalkattan/React-Landing-Page-Template/graphs/contributors" target="_blank" rel="noopener noreferrer">Issaaf Kattan</a>. [MIT License]
           </p>
         </div>
       </div>

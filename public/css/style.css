@@ -721,7 +721,8 @@ acá copio el estilo de .contact-ite .social
 
 /* Estilo específico para el texto de reconocimiento */
 #footer .recognition-text {
-  font-size: 13px; /* Un poco más pequeño para dar prioridad al texto de la floristería */
+  margin-top: 9px;
+  font-size: 11px; /* Un poco más pequeño para dar prioridad al texto de la floristería */
   color: #aaa; /* Color más claro que el de la floristería */
 }
 
@@ -729,7 +730,7 @@ acá copio el estilo de .contact-ite .social
   color: #608dfd;
   text-decoration: none; /* Eliminamos el subrayado */
   font-weight: 500;
-  font-size: 13px; /* Igualamos el tamaño de la fuente al resto del texto */
+  font-size: 11.5px; /* Igualamos el tamaño de la fuente al resto del texto */
   border-bottom: 1px solid transparent; /* Borde inferior transparente por defecto */
   transition: all 0.3s ease; /* Transición suave para efectos de hover */
   text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.1); /* Sombra ligera */
